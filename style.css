@@ -1,0 +1,79 @@
+
+.for{
+  background-image: linear-gradient(to top,rgb(190, 188, 123),rgb(187, 174, 55),rgb(133, 189, 133));
+    margin-top: 70px;
+    text-align: center;
+    width: 50%;
+    height: 580px;
+}
+body{
+    background-color: rgba(0, 255, 255, 0.384);
+}
+.head{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #ffffff
+}
+form{
+    margin-top: 40px;
+    color: rgba(0, 0, 255, 0.649);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    color: antiquewhite;
+}
+label{
+    margin-right: 20px;
+
+}
+#weight{
+    margin-top: 10px;
+}
+#calculate{
+    margin-top: 20px;
+    width: 120px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    background-color: rgba(192, 73, 164, 0.74);
+    border:2px solid rgba(192, 73, 164, 0.74);
+    color:rgb(20, 19, 21) ;
+
+}
+#results{
+margin-top: 20px;
+font-size: 30px;
+font-family: sans-serif;
+font-weight: 400;
+}
+.guide h4{
+    margin-top: 40px;
+   color: rgba(38, 33, 186, 0.978);
+    font-size: 20px;
+  font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.guide h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 20px;
+   font-weight: 400;
+   line-height: 8px;
+   color:rgba(33, 33, 182, 0.749) ;
+}
+
+@media screen  and (min-width:380px) and (max-width:880px) {
+    .for{
+        margin-top: 40;
+       height: 500px;
+       width: 400px;
+       float: left;
+       margin-left: 30px;
+    }
+   
+}
